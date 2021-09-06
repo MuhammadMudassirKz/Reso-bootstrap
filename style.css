@@ -208,9 +208,10 @@ body{
 .card {
     box-shadow: 0 4px 28px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    width: 350px;
+    width: 100%;
     background-color: white;
-    margin-left: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
     border: none !important;
 }
 
@@ -248,7 +249,7 @@ body{
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
-.container {
+.cards-inner-section {
     padding: 10px 18px;
 }
 
@@ -335,7 +336,7 @@ body{
 }
 
 .third-section{
-    width: 100%;
+    /*width: 100%;*/
     height: 100%;
     margin-top: 120px;
     margin-bottom: 230px;
@@ -390,9 +391,9 @@ body{
     height: 100%;
 }
 
-#fourth-section-card{
-    margin-left: 15px;
-}
+/*#fourth-section-card{*/
+/*    margin-left: 15px;*/
+/*}*/
 
 .fourth-section-card-container {
     padding-left: 25px;
@@ -524,6 +525,8 @@ body{
     display: flex;
     box-shadow: 0 10px 25px 0 rgba(0,0,0,0.2);
     margin-top: 160px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 .sixth-section-card{
@@ -568,6 +571,11 @@ body{
     color: rgb(126, 133, 142);
     line-height: 3;
     padding-left: 26px;
+}
+
+.sixth-section-img{
+    padding-right: 0;
+    padding-left: 0;
 }
 
 /*SEVENTH SECTION*/
@@ -652,7 +660,7 @@ body{
 }
 
 .footer-text{
-    width: 300px;
+    /*width: 300px;*/
     height: 175px;
 }
 
@@ -666,7 +674,7 @@ body{
 }
 
 .second-footer-text {
-    width: 220px;
+    /*width: 220px;*/
     height: 175px;
 }
 
