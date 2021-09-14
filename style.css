@@ -3,6 +3,11 @@ body{
     padding: 0;
 }
 
+@font-face {
+    font-family: "Geometria";
+    src: url("Fonts/Geometria-Font/Geometria.ttf");
+}
+
 .main-container{
     width: 100%;
     height: 100%;
@@ -181,12 +186,20 @@ body{
 
 .bg-img-text{
     padding-bottom: 75px;
+    padding-left: 40px;
+}
+
+@media (min-width: 300px) and (max-width: 768px) {
+    .bg-img-text{
+        padding-left: 0px;
+    }
 }
 
 .bg-img-text h1{
     font-size: 60px;
     font-family: "Geometria", serif;
     color: rgb(255, 255, 255);
+    font-weight: 600;
 }
 
 
@@ -195,7 +208,7 @@ body{
 .cards-section{
     width: 100%;
     height: 100%;
-    margin-top: -175px;
+    margin-top: -160px;
 }
 
 .cards-section h1{
@@ -203,6 +216,7 @@ body{
     font-weight: 100;
     font-family: "SFUIDisplay", sans-serif;
     color: rgb(255, 255, 255);
+    padding-bottom: 25px;
 }
 
 .card {
@@ -251,6 +265,7 @@ body{
 
 .cards-inner-section {
     padding: 10px 18px;
+    height: 250px;
 }
 
 .miami p {
@@ -614,6 +629,13 @@ body{
 .eight-section{
     margin-top: 130px;
     margin-bottom: 70px;
+}
+
+@media (min-width: 300px) and (max-width: 768px) {
+    .eight-section-img img{
+        width: 100%;
+        height: 100%;
+    }
 }
 
 .eight-section hr{
